@@ -8,7 +8,7 @@ namespace PadawansTask1.Tests
         [Test]
         public void GetYearsTest_With_Result_15()
         {
-            Assert.AreEqual(Population.GetYears(1500, 5, 100, 5000), 15);
+            Assert.AreEqual(Population.GetYears(50, 1, 0, 5000), 15);
         }
     }
 }
